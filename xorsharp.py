@@ -14,9 +14,6 @@ def xorvba():
     count=0;
     for i in array.split(",")[3:]:
         if i !="_":
-            print("---")
-            print(i)
-            print("---")
             value=int(i,10) ^ int("bd",16);
             output=output+str(value)+", "
         else:
